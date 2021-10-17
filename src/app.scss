@@ -6,10 +6,16 @@
         height: calc(100vh - 70px); // Height starts after Topbar component
         position: relative;
         top: 70px;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none; //for Firefox
+        &::-webkit-scrollbar {
+            display: none; //hidden scrollbar on rest of browsers
+        }
 
         > * {
             width: 100%;
             height: calc(100vh - 70px);
+            scroll-snap-align: start;
         }
     }
 }
