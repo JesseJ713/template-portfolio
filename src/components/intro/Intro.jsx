@@ -7,12 +7,11 @@ export default function Intro() {
     const textRef = useRef();
 
     useEffect(() => {
-        console.log(textRef);
         init(textRef.current, {
             showCursor: true,
             backDelay: 1500,
-            strings: ['Full Stack Developer', 'Designer', 'Musician']
-        })
+            strings: ['Full Stack Developer', 'Designer', 'Musician'],
+        });
     }, []);
 
     return (
