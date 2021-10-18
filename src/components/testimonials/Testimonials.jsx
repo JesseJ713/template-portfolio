@@ -1,7 +1,7 @@
 import React from 'react';
 import './testimonials.scss';
 import { testimonialData } from '../../projectData';
-import { MdOutlineArrowBack, MdArrowForward } from 'react-icons/md';
+import { MdArrowForward } from 'react-icons/md';
 
 export default function Testimonials() {
     return (
