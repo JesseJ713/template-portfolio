@@ -1,4 +1,5 @@
 import React from 'react'
+import { MdOutlineArrowBack, MdArrowForward } from 'react-icons/md'
 import './works.scss'
 
 export default function Works() {
@@ -23,6 +24,9 @@ export default function Works() {
                     </div>
                 </div>
             </div>
+                <MdOutlineArrowBack className='arrow left'/>
+                <MdArrowForward className='arrow right'/>
+
         </div>
     )
 }
