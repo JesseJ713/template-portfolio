@@ -183,3 +183,30 @@ export const portfolioSlider = [
         img: 'https://via.placeholder.com/450',
     },
 ];
+
+export const testimonialData = [
+    {
+        id: 1,
+        name: 'Sample Name',
+        title: 'SAMPLE TITLE',
+        img: 'https://via.placeholder.com/150',
+        icon: 'https://via.placeholder.com/250',
+        desc: 'SAMPLE Description',
+    },
+    {
+        id: 2,
+        name: 'Sample Name',
+        title: 'SAMPLE TITLE',
+        img: 'https://via.placeholder.com/250',
+        icon: 'https://via.placeholder.com/350',
+        desc: 'SAMPLE Description',
+    },
+    {
+        id: 3,
+        name: 'Sample Name',
+        title: 'SAMPLE TITLE',
+        img: 'https://via.placeholder.com/350',
+        icon: 'https://via.placeholder.com/450',
+        desc: 'SAMPLE Description',
+    },
+];
