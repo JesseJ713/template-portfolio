@@ -159,3 +159,27 @@ export const contentPortfolio = [
         img: 'https://via.placeholder.com/250',
     },
 ];
+
+export const portfolioSlider = [
+    {
+        id: 1,
+        icon: 'https://via.placeholder.com/150',
+        title: 'SAMPLE TITLE',
+        desc: 'Sample Description',
+        img: 'https://via.placeholder.com/250',
+    },
+    {
+        id: 2,
+        icon: 'https://via.placeholder.com/150',
+        title: 'SAMPLE TITLE',
+        desc: 'Sample Description',
+        img: 'https://via.placeholder.com/350',
+    },
+    {
+        id: 3,
+        icon: 'https://via.placeholder.com/150',
+        title: 'SAMPLE TITLE',
+        desc: 'Sample Description',
+        img: 'https://via.placeholder.com/450',
+    },
+];
