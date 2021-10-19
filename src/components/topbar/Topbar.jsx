@@ -3,13 +3,13 @@ import './topbar.scss';
 import { GrMail } from 'react-icons/gr';
 import { FaPhoneAlt } from 'react-icons/fa';
 
-export default function Topbar({menuOpen, setMenuOpen}) {
+export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
         <div className={'topbar ' + (menuOpen && 'active')}>
             <div className='wrapper'>
                 <div className='left'>
                     <a href='#intro' className='logo'>
-                        SAMPLE LOGO
+                        J{<sup className='exponent'>2</sup>}
                     </a>
                     <div className='itemContainer'>
                         <FaPhoneAlt className='icon' />
@@ -21,7 +21,10 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                 </div>
                 <div className='right'>
-                    <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+                    <div
+                        className='hamburger'
+                        onClick={() => setMenuOpen(!menuOpen)}
+                    >
                         <span className='line1'></span>
                         <span className='line2'></span>
                         <span className='line3'></span>
