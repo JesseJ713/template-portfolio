@@ -44,7 +44,10 @@ export default function Contact() {
     return (
         <div className='contact' id='contact'>
             <div className='left'>
-                <img src='https://via.placeholder.com/150' alt='' />
+                <img
+                    src='https://raw.githubusercontent.com/safak/youtube/da700015c8a88050fad7b961e99a7039638ab3b2/public/assets/shake.svg'
+                    alt=''
+                />
             </div>
             <div className='right'>
                 <h2>Contact</h2>
