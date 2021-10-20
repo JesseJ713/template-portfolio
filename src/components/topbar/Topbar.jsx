@@ -1,7 +1,7 @@
 import React from 'react';
 import './topbar.scss';
 import { GrMail } from 'react-icons/gr';
-import { FaPhoneAlt } from 'react-icons/fa';
+import { FaGithub, FaGoogleDrive, FaLinkedin } from 'react-icons/fa';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -11,14 +11,42 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <a href='#intro' className='logo'>
                         J{<sup className='exponent'>2</sup>}
                     </a>
-                    <div className='itemContainer'>
-                        <FaPhoneAlt className='icon' />
-                        <span>5555555555</span>
-                    </div>
-                    <div className='itemContainer'>
-                        <GrMail className='icon' />
-                        <span>jesse.jackson.c@gmail.com</span>
-                    </div>
+                    <a href='mailto:jesse.jackson.c@gmail.com'>
+                        <div className='itemContainer'>
+                            <GrMail className='icon' />
+                            <span>jesse.jackson.c@gmail.com</span>
+                        </div>
+                    </a>
+                    <a
+                        href='https://github.com/JesseJ713'
+                        rel='noreferrer'
+                        target='_blank'
+                    >
+                        <div className='itemContainer'>
+                            <FaGithub className='icon' />
+                            <span>Github</span>
+                        </div>
+                    </a>
+                    <a
+                        href='https://www.linkedin.com/in/jesse-jackson-atx/'
+                        rel='noreferrer'
+                        target='_blank'
+                    >
+                        <div className='itemContainer'>
+                            <FaLinkedin className='icon' />
+                            <span>LinkedIn</span>
+                        </div>
+                    </a>
+                    <a
+                        href='https://docs.google.com/document/d/1OAcNqShun2ll-cHmemCxcgJuECvqdQ0V/edit?usp=sharing&ouid=115416440635836363293&rtpof=true&sd=true'
+                        rel='noreferrer'
+                        target='_blank'
+                    >
+                        <div className='itemContainer'>
+                            <FaGoogleDrive className='icon' />
+                            <span>Resume</span>
+                        </div>
+                    </a>
                 </div>
                 <div className='right'>
                     <div

@@ -1,7 +1,7 @@
 import React from 'react';
 import './testimonials.scss';
 import { testimonialData } from '../../projectData';
-import { MdArrowForward } from 'react-icons/md';
+import { BsArrowReturnRight } from 'react-icons/bs';
 
 export default function Testimonials() {
     return (
@@ -11,11 +11,19 @@ export default function Testimonials() {
                 {testimonialData.map((data) => (
                     <div className='card'>
                         <div className='top'>
-                            <MdArrowForward className='left' />
+                            <BsArrowReturnRight className='left' />
                             <img src={data.img} className='user' alt='' />
-                            <img src={data.icon} className='right' alt='' />
+                            <a
+                                href={data.profile}
+                                rel='noreferrer'
+                                target='_blank'
+                            >
+                                <img src={data.icon} className='right' alt='' />
+                            </a>
                         </div>
-                        <div className='center'>{data.desc}</div>
+                        <div className='center'>
+                            <q>{data.desc}</q>
+                        </div>
                         <div className='bottom'>
                             <h3>{data.name}</h3>
                             <h4>{data.title}</h4>
