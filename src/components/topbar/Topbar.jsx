@@ -9,7 +9,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className='wrapper'>
                 <div className='left'>
                     <a href='#intro' className='logo'>
-                        J{<sup className='exponent'>2</sup>}
+                        Rev{<sup className='exponent'>Dev</sup>}
                     </a>
                     <a href='mailto:jesse.jackson.c@gmail.com'>
                         <div className='itemContainer'>
