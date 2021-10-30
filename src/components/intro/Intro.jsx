@@ -10,7 +10,7 @@ export default function Intro() {
         init(textRef.current, {
             showCursor: true,
             backDelay: 1500,
-            strings: ['Full Stack Developer', 'Designer', 'Musician'],
+            strings: ['[Insert Title]'],
         });
     }, []);
 
@@ -24,7 +24,7 @@ export default function Intro() {
             <div className='right'>
                 <div className='wrapper'>
                     <h2>Hi there, I'm</h2>
-                    <h1>Jesse Jackson</h1>
+                    <h1>[Insert Name]</h1>
                     <h3>
                         Freelance <span ref={textRef}></span>
                     </h3>

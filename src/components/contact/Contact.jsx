@@ -18,9 +18,10 @@ export default function Contact() {
         e.preventDefault();
         isValidEmail(email);
         if (name && email && message) {
-            const serviceId = 'service_e5xeloo';
-            const templateId = 'template_vht4ehh';
-            const userId = 'user_PGezqgpNMtitZtvFSNTuQ';
+            // PLEASE ENTER CORRESPONDING EMAILJS INFORMATION TO UTILIZE CONTACT PAGE
+            const serviceId = '';
+            const templateId = '';
+            const userId = '';
             const templateParams = {
                 name,
                 email,
