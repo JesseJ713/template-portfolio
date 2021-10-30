@@ -9,16 +9,17 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className='wrapper'>
                 <div className='left'>
                     <a href='#intro' className='logo'>
-                        Rev{<sup className='exponent'>Dev</sup>}
+                        [Insert Logo]
                     </a>
-                    <a href='mailto:jesse.jackson.c@gmail.com'>
+                    <a href='mailto:[YOUR EMAIL]'>
                         <div className='itemContainer'>
                             <GrMail className='icon' />
-                            <span>jesse.jackson.c@gmail.com</span>
+                            <span>[Insert Email]</span>
                         </div>
                     </a>
                     <a
-                        href='https://github.com/JesseJ713'
+                        // ENTER GITHUB ADDRESS
+                        href='https://github.com/'
                         rel='noreferrer'
                         target='_blank'
                     >
@@ -28,7 +29,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                         </div>
                     </a>
                     <a
-                        href='https://www.linkedin.com/in/jesse-jackson-atx/'
+                        // ENTER LINKEDIN ADDRESS
+                        href='https://www.linkedin.com/'
                         rel='noreferrer'
                         target='_blank'
                     >
@@ -38,7 +40,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                         </div>
                     </a>
                     <a
-                        href='https://docs.google.com/document/d/1OAcNqShun2ll-cHmemCxcgJuECvqdQ0V/edit?usp=sharing&ouid=115416440635836363293&rtpof=true&sd=true'
+                        // ENTER RESUME LINK
+                        href='https://www.google.com'
                         rel='noreferrer'
                         target='_blank'
                     >
